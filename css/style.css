@@ -96,7 +96,7 @@ main {
 }
 
 .summary-section .list li:hover {
-  transform: translate(0, -20px) scale(1.2);
+  transform: translate(0, -2px) scale(1.2);
 }
 
 .list li:nth-of-type(1) {
@@ -136,8 +136,7 @@ main {
 }
 
 .summary-section .link:hover {
-  background-color: red;
-  transform: rotate(-20deg) scale(1) translate(40px, 50px);
+  /* transform: rotate(-20deg) scale(1) translate(40px, 50px); */
   /* padding: 20px 40px; */
   cursor: pointer;
 }
