@@ -55,7 +55,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 main {
@@ -254,17 +254,13 @@ main {
   body {
     height: 100%;
     width: 100%;
-    /* height: 375px;
-    width: 375px; */
   }
   main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 375px;
     width: 100%;
-    height: 643px;
   }
 
   /* result-section */
@@ -276,5 +272,10 @@ main {
   }
   .summary-section {
     width: 100%;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    display: flex;
   }
 }
